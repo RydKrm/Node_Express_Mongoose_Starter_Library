@@ -8,12 +8,12 @@ exports.sendEmail = async (
 ) => {
   try {
     const transporter = nodemailer.createTransport({
-      host: "mail.gicbdedu.com",
+      host: " ",
       port: 465,
       secure: true,
       auth: {
-        user: "consent.v1@gicbdedu.com",
-        pass: "14k*8jpc$b$2",
+        user: " ",
+        pass: " ",
       },
       tls: {
         rejectUnauthorized: false,
